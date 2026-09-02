@@ -1,0 +1,15 @@
+{
+  "name": "amanopark-booking-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "valet.amanopark.co.kr 예약 페이지에서 예약이 성공할 때까지 자동으로 재시도하는 프로그램",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node demo.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.47.0"
+  }
+}
